@@ -1,0 +1,15 @@
+/* Import font  */
+
+@font-face {
+  font-family: "yekan";
+  src: url(assets/fonts/WebYekan.woff) format("woff");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
