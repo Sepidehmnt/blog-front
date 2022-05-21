@@ -1,0 +1,316 @@
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/IRANSans/eot/IRANSansWeb_Bold.eot");
+  src: url("../fonts/IRANSans/eot/IRANSansWeb_Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/IRANSans/woff2/IRANSansWeb_Bold.woff2") format("woff2"),
+    url("../fonts/IRANSans/woff/IRANSansWeb_Bold.woff") format("woff"),
+    url("../fonts/IRANSans/ttf/IRANSansWeb_Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/IRANSans/eot/IRANSansWeb_Medium.eot");
+  src: url("../fonts/IRANSans/eot/IRANSansWeb_Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/IRANSans/woff2/IRANSansWeb_Medium.woff2") format("woff2"),
+    url("../fonts/IRANSans/woff/IRANSansWeb_Medium.woff") format("woff"),
+    url("../fonts/IRANSans/ttf/IRANSansWeb_Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/IRANSans/eot/IRANSansWeb_Light.eot");
+  src: url("../fonts/IRANSans/eot/IRANSansWeb_Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/IRANSans/woff2/IRANSansWeb_Light.woff2") format("woff2"),
+    url("../fonts/IRANSans/woff/IRANSansWeb_Light.woff") format("woff"),
+    url("../fonts/IRANSans/ttf/IRANSansWeb_Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/IRANSans/eot/IRANSansWeb_UltraLight.eot");
+  src: url("../fonts/IRANSans/eot/IRANSansWeb_UltraLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/IRANSans/woff2/IRANSansWeb_UltraLight.woff2") format("woff2"),
+    url("../fonts/IRANSans/woff/IRANSansWeb_UltraLight.woff") format("woff"),
+    url("../fonts/IRANSans/ttf/IRANSansWeb_UltraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/IRANSans/eot/IRANSansWeb.eot");
+  src: url("../fonts/IRANSans/eot/IRANSansWeb.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/IRANSans/woff2/IRANSansWeb.woff2") format("woff2"),
+    url("../fonts/IRANSans/woff/IRANSansWeb.woff") format("woff"),
+    url("../fonts/IRANSans/ttf/IRANSansWeb.ttf") format("truetype");
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #dfe6e9;
+  --secondary-color: rgb(148, 148, 148);
+  --gray-color: #6c757d;
+  --dark-color: rgb(41, 40, 48);
+  --light-color: #f8f9fa;
+  --turquoise-color: #1abc9c;
+  --greensee-color: #16a085;
+  --clouds-color: #ecf0f1;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* general style */
+
+body {
+  direction: rtl;
+  font-family: "Shabnam FD", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+figure {
+  margin: 0px;
+}
+
+/* single blog main */
+.single__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 160px 20px 144px 20px;
+}
+
+.single__inner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.single__image-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.single__image-box img {
+  width: 80%;
+  transform: scale(1.01);
+  max-width: 75%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+}
+.single__lower-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 33px 10px 20px 0px;
+  margin-bottom: 40px;
+}
+.single__lower-content-post-date {
+  position: absolute;
+  right: 333px;
+  bottom: 0;
+  margin-top: 12px;
+  font-size: 1.5rem;
+  color: var(--gray-color);
+}
+.single__lower-content h2 a {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 12px;
+  line-height: 10px;
+  font-size: 2.5rem;
+  color: var(--greensee-color);
+}
+
+.single__lower-content-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+.single__lower-content-text p {
+  margin: 12px 0px 16px;
+  width: 60%;
+  line-height: 26px;
+  font-size: 1.5rem;
+  color: var(--dark-color);
+}
+
+.comments-area {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 60px;
+}
+.group-title {
+  display: block;
+  margin-bottom: 25px;
+  line-height: 30px;
+  font-size: 2.5rem;
+  color: var(--greensee-color);
+}
+.comment {
+  position: relative;
+  display: block;
+  padding: 0px 0px 43px 110px;
+  margin-bottom: 46px;
+}
+.comment .author {
+  position: absolute;
+  right: 0px;
+  top: 4px;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 50%;
+  background: url(../img/Mr-x.jpg) no-repeat center center;
+  background-size: cover;
+}
+.comment .author2 {
+  background: url(../img/Mr-Y.jpg) no-repeat center center;
+  background-size: cover;
+}
+.comment-inner {
+  display: flex;
+  flex-direction: column;
+  padding-right: 120px;
+  margin-bottom: 16px;
+}
+.comment-inner::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+.comment-info h4 {
+  display: block;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--dark-color);
+  margin-bottom: 1px;
+}
+.comment-info .date {
+  display: block;
+  font-size: 15px;
+  font-style: italic;
+}
+.reply-btn {
+  margin-top: 14px;
+}
+.reply-btn a {
+  display: inline-block;
+  padding: 10px;
+  line-height: 24px;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  font: inherit;
+  font-size: 20px;
+  color: var(--dark-color);
+}
+.reply-btn a:hover {
+  background-color: var(--turquoise-color);
+}
+.comment-inner .text {
+  width: 40%;
+  padding-top: 16px;
+  line-height: 20px;
+  text-align: justify;
+  font-size: 1.5rem;
+}
+.reply-comment {
+  margin-right: 115px;
+}
+.comments-form-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+}
+.comment-form .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0px -15px 0 -15px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.form-group input[type="text"],
+input[type="email"] {
+  width: 100%;
+  height: 55px;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  padding: 6px 16px;
+  font-size: 16px;
+  transition: all 500ms ease;
+  margin: 10px;
+  background-color: var(--clouds-color);
+}
+.form-group textarea {
+  width: 100%;
+  height: 250px;
+  font-size: 15px;
+  border: 1px solid #e5e5e5;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: all 500ms ease;
+  background-color: var(--light-color);
+}
+.form-group .btn-style {
+  font-size: 15px;
+  font-weight: bold;
+  font: inherit;
+  padding: 10px 10px;
+  background: var(--clouds-color);
+  line-height: 20px;
+  color: var(--dark-color);
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  transition: all 500ms ease;
+  cursor: pointer;
+  text-align: center;
+}
