@@ -304,3 +304,75 @@ a:visited {
   margin: 12px 0px 12px;
 }
 /* end of main style */
+
+/* footer */
+.main-footer {
+  background: var(--light-color);
+}
+.footer__top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.footer__info-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.footer__info-col h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--greensee-color);
+}
+.footer__info-col p {
+  width: 50%;
+  margin-top: 12px;
+  line-height: 26px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--dark-color);
+}
+.footer__info-col li a {
+  font-size: 1.5rem;
+  color: var(--gray-color);
+}
+
+.footer__end {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+.line {
+  border-bottom: 1px solid var(--light-color);
+  margin: 0px 180px;
+}
+.footer__end-me {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.footer__end-me strong {
+  color: var(--greensee-color);
+}
+.footer__end-me #fullName {
+  color: var(--gray-color);
+  font-size: 1.8rem;
+}
+.footer__end-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__end-icons .icon a i {
+  padding-right: 30px;
+  font-size: 2.5rem;
+  text-align: center;
+  color: var(--greensee-color);
+}
