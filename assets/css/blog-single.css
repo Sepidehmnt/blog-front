@@ -235,12 +235,12 @@ figure {
 }
 .reply-btn a {
   display: inline-block;
-  padding: 10px;
+  padding: 5px;
   line-height: 24px;
   border: 1px solid #e5e5e5;
   border-radius: 3px;
   font: inherit;
-  font-size: 20px;
+  font-size: 1.5rem;
   color: var(--dark-color);
 }
 .reply-btn a:hover {
