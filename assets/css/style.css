@@ -311,34 +311,47 @@ a:visited {
 }
 .footer__top {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
+  flex-direction: column;
   padding-top: 20px;
 }
-
-.footer__info-col {
+.footer__about {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+}
+.footer__about-col {
+  width: 100%;
+  font-size: 14px;
+  padding: 20px;
+  text-align: center;
+}
+.footer__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer__info-col {
+  flex: 1 0 32%;
   font-size: 14px;
   padding: 10px;
+  text-align: center;
 }
-
+.footer__about-col h3,
 .footer__info-col h3 {
   font-size: 2rem;
   font-weight: bold;
+  margin-bottom: 10px;
   color: var(--greensee-color);
 }
-.footer__info-col p {
-  width: 50%;
-  margin-top: 12px;
+.footer__top p {
+  width: 60%;
+  margin: 12px auto;
   line-height: 26px;
   text-align: center;
   font-size: 1.5rem;
   color: var(--dark-color);
 }
+
 .footer__info-col li a {
   font-size: 1.5rem;
   color: var(--gray-color);
